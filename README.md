@@ -1,22 +1,21 @@
 # Artificial Intelligence SQL Interface
+A ficticious internal company database that employees can query via natural language. 
 
 # Startup 
-1. Clone the repository by running `git clone 
-2. I recommend setting up a virtual environment for this project (optional).
-a. Run `python3 -m venv environment_name` in the root directory of the project.
-b. Activate the virtual environment by running `source path/to/environment_name/bin/activate` . (Linux & Mac)
-3. Install the project dependencies by running `pip install -r path/to/requirements.txt` .
-4. Open the .environment file and add your OpenAI API key to the `OPEN_API_KEY` variable.
-5. Rename the .environment file to .env
-6. Run the application by running `streamlit app.py`
+1. Clone the repository by running `git clone https://github.com/delfortrie/langchain_sql.git`
+2. I recommend setting up a virtual environment for this project ( step 3 & 4 )
+3. Run `python3 -m venv environment_name` in the root directory of the project
+4. Activate the virtual environment in Linux or Mac by running `source path/to/environment_name/bin/activate` 
+5. Install the project dependencies by running `pip install -r path/to/requirements.txt`
+6. Open the .environment file and add your OpenAI API key to the `OPEN_API_KEY` variable
+7. Rename the `.environment` file to `.env`
+8. Run the application with `streamlit run app.py` in the terminal
 
 ## Notes
-a. You can obtain your API key by signing up for an account at https://openai.com/
-b. I recommend placing a soft and hard limit on your billing, requests are not "cheap".
+- You can obtain your API key by signing up for an account at https://openai.com/.
+-  I recommend placing a soft and hard limit on your billing, requests are not "cheap".
 
 # Future Features
-I plan on maintaining this repository and adding utilities to this program.
-
-1. Upload a document on the fly (held in memory) and make requests on said document.
-    a. These might include: PDF, CSV, JSON, etc.
+1. Upload a document on the fly ( held in memory ) and make requests on said document.
+- These might include: PDF, CSV, JSON, etc.
 2. Input a URL and make requests about the link provided ( news article, blog, etc. )
