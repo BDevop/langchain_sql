@@ -21,7 +21,7 @@ st.title("AI Interface for SQL Databases")
 st.markdown("This is a ficticious internal company database ( [chinook DB](https://github.com/lerocha/chinook-database) )" +
             " that allows employees an easy method of data retreival through natural language.")
 st.markdown("[Visual Representation](https://docs.yugabyte.com/images/sample-data/chinook/chinook-er-diagram.png)")
-st.markdown("[Source Code](https://github.com/delfortrie/)")
+st.markdown("[Source Code](https://github.com/delfortrie/langchain_sql/blob/master/app.py)")
 
 # Sample Questions
 question_bank = [
