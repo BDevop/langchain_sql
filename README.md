@@ -1,5 +1,5 @@
 # Artificial Intelligence SQL Interface
-A ficticious internal company database that employees can query via natural language.
+A fictitious internal company database that employees can query via natural language.
 - Replace the database with your own and you have an incredibly powerful open-source tool at your disposal.
 
 # Startup 
